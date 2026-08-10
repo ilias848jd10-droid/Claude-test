@@ -1,0 +1,33 @@
+{
+  "stocks": [
+    { "id": "AAPL", "symbol": "AAPL", "name": "Apple Inc.", "category": "Τεχνολογία", "source": "yahoo" },
+    { "id": "MSFT", "symbol": "MSFT", "name": "Microsoft Corp.", "category": "Τεχνολογία", "source": "yahoo" },
+    { "id": "GOOGL", "symbol": "GOOGL", "name": "Alphabet Inc.", "category": "Τεχνολογία", "source": "yahoo" },
+    { "id": "NVDA", "symbol": "NVDA", "name": "NVIDIA Corp.", "category": "Τεχνολογία", "source": "yahoo" },
+    { "id": "META", "symbol": "META", "name": "Meta Platforms", "category": "Τεχνολογία", "source": "yahoo" },
+    { "id": "AMZN", "symbol": "AMZN", "name": "Amazon.com", "category": "Λιανική / e-commerce", "source": "yahoo" },
+    { "id": "WMT", "symbol": "WMT", "name": "Walmart Inc.", "category": "Λιανική / e-commerce", "source": "yahoo" },
+    { "id": "TSLA", "symbol": "TSLA", "name": "Tesla Inc.", "category": "Αυτοκίνητο", "source": "yahoo" },
+    { "id": "JPM", "symbol": "JPM", "name": "JPMorgan Chase", "category": "Χρηματοοικονομικά", "source": "yahoo" },
+    { "id": "V", "symbol": "V", "name": "Visa Inc.", "category": "Χρηματοοικονομικά", "source": "yahoo" },
+    { "id": "XOM", "symbol": "XOM", "name": "Exxon Mobil", "category": "Ενέργεια", "source": "yahoo" },
+    { "id": "NFLX", "symbol": "NFLX", "name": "Netflix Inc.", "category": "Ψυχαγωγία", "source": "yahoo" },
+    { "id": "DIS", "symbol": "DIS", "name": "Walt Disney Co.", "category": "Ψυχαγωγία", "source": "yahoo" }
+  ],
+  "crypto": [
+    { "id": "bitcoin", "symbol": "BTC", "name": "Bitcoin", "category": "Layer 1", "source": "coingecko" },
+    { "id": "ethereum", "symbol": "ETH", "name": "Ethereum", "category": "Layer 1", "source": "coingecko" },
+    { "id": "solana", "symbol": "SOL", "name": "Solana", "category": "Layer 1", "source": "coingecko" },
+    { "id": "cardano", "symbol": "ADA", "name": "Cardano", "category": "Layer 1", "source": "coingecko" },
+    { "id": "avalanche-2", "symbol": "AVAX", "name": "Avalanche", "category": "Layer 1", "source": "coingecko" },
+    { "id": "uniswap", "symbol": "UNI", "name": "Uniswap", "category": "DeFi", "source": "coingecko" },
+    { "id": "aave", "symbol": "AAVE", "name": "Aave", "category": "DeFi", "source": "coingecko" },
+    { "id": "chainlink", "symbol": "LINK", "name": "Chainlink", "category": "DeFi", "source": "coingecko" },
+    { "id": "ripple", "symbol": "XRP", "name": "XRP", "category": "Πληρωμές", "source": "coingecko" },
+    { "id": "litecoin", "symbol": "LTC", "name": "Litecoin", "category": "Πληρωμές", "source": "coingecko" },
+    { "id": "dogecoin", "symbol": "DOGE", "name": "Dogecoin", "category": "Meme", "source": "coingecko" },
+    { "id": "shiba-inu", "symbol": "SHIB", "name": "Shiba Inu", "category": "Meme", "source": "coingecko" },
+    { "id": "tether", "symbol": "USDT", "name": "Tether", "category": "Stablecoin", "source": "coingecko" },
+    { "id": "usd-coin", "symbol": "USDC", "name": "USD Coin", "category": "Stablecoin", "source": "coingecko" }
+  ]
+}
