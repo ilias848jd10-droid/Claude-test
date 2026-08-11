@@ -303,3 +303,60 @@ a {
   top: 0;
   background: var(--surface-2);
 }
+
+/* Nav bar */
+.nav-bar {
+  display: flex;
+  gap: 0.25rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.nav-link.active {
+  background: var(--surface-2);
+  color: var(--series-1);
+}
+
+/* Derivatives page */
+.date-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.date-picker-row label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.date-picker-row input[type="date"] {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.candle-tooltip {
+  background: var(--surface-2);
+  border: 1px solid var(--grid-line);
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.swing-top {
+  background: color-mix(in srgb, var(--status-critical) 12%, transparent);
+}

@@ -24,6 +24,12 @@ React app (Vite)           Dashboard + σελίδα ανά asset με γράφη
 
 - **Χωρίς API keys**: μετοχές μέσω του δημόσιου Yahoo Finance chart endpoint,
   κρύπτο μέσω του δωρεάν CoinGecko API.
+- **ETH/USDT Παράγωγα** (σελίδα `/derivatives`): ωριαία δεδομένα Perpetual
+  Futures (τιμή/candlestick, όγκος, funding rate, open interest) απευθείας
+  από το δωρεάν public API του OKX, ζωντανά στο browser (`src/lib/okx.ts`) —
+  όχι μέσω του nightly script, γιατί ο χρήστης διαλέγει ελεύθερα ημερομηνία.
+  Δεν χρησιμοποιείται το Binance επειδή μπλοκάρει με HTTP 451 βάσει
+  γεωγραφίας σε αρκετά δίκτυα/datacenters.
 - **Νυχτερινή ενημέρωση**: το `.github/workflows/nightly-fetch.yml` τρέχει
   κάθε βράδυ (23:30 UTC) μέσω GitHub Actions scheduled job, τρέχει το script,
   και κάνει commit τα ενημερωμένα δεδομένα πίσω στο repo.
