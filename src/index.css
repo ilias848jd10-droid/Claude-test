@@ -329,6 +329,7 @@ a {
 /* Derivatives page */
 .date-picker-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.6rem;
   margin: 1rem 0 1.25rem;
@@ -339,7 +340,8 @@ a {
   color: var(--text-secondary);
 }
 
-.date-picker-row input[type="date"] {
+.date-picker-row input[type="date"],
+.date-picker-row select {
   padding: 0.5rem 0.75rem;
   border-radius: 8px;
   border: 1px solid var(--border);

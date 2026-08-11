@@ -24,12 +24,18 @@ React app (Vite)           Dashboard + σελίδα ανά asset με γράφη
 
 - **Χωρίς API keys**: μετοχές μέσω του δημόσιου Yahoo Finance chart endpoint,
   κρύπτο μέσω του δωρεάν CoinGecko API.
-- **ETH/USDT Παράγωγα** (σελίδα `/derivatives`): ωριαία δεδομένα Perpetual
-  Futures (τιμή/candlestick, όγκος, funding rate, open interest) απευθείας
-  από το δωρεάν public API του OKX, ζωντανά στο browser (`src/lib/okx.ts`) —
-  όχι μέσω του nightly script, γιατί ο χρήστης διαλέγει ελεύθερα ημερομηνία.
-  Δεν χρησιμοποιείται το Binance επειδή μπλοκάρει με HTTP 451 βάσει
-  γεωγραφίας σε αρκετά δίκτυα/datacenters.
+- **ETH/USDT Παράγωγα** (σελίδα `/derivatives`, 3 tabs): ωριαία δεδομένα,
+  ζωντανά στο browser (όχι μέσω nightly script, γιατί ο χρήστης διαλέγει
+  ελεύθερα ημερομηνία/συμβόλαιο):
+  - **Perpetual**: τιμή/candlestick, όγκος, funding rate, open interest από
+    το δωρεάν public API του **OKX** (`src/lib/okx.ts`).
+  - **Quarterly Futures** και **Options** (με επιλογέα λήξης/strike/call-put):
+    από το public API του **Binance** (`src/lib/binance.ts`), γιατί μόνο εκεί
+    υπάρχουν πραγματικά USDT-margined αυτού του τύπου για ETH — στο OKX τα
+    quarterly/options είναι μόνο σε ETH ή USD/USDC margin.
+  - Το Binance μπλοκάρει με HTTP 451 σε κάποια δίκτυα/datacenters (π.χ. το
+    dev sandbox όπου φτιάχτηκε η εφαρμογή) αλλά όχι απαραίτητα στον τελικό
+    χρήστη — επιβεβαιώθηκε ότι δουλεύει σε πραγματικό κινητό στην Ελλάδα.
 - **Νυχτερινή ενημέρωση**: το `.github/workflows/nightly-fetch.yml` τρέχει
   κάθε βράδυ (23:30 UTC) μέσω GitHub Actions scheduled job, τρέχει το script,
   και κάνει commit τα ενημερωμένα δεδομένα πίσω στο repo.
