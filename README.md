@@ -9,7 +9,7 @@ Install app) χάρη στο PWA manifest + service worker.
 ## Πώς δουλεύει
 
 ```
-data/symbols.json          λίστα μετοχών/κρύπτο με κατηγορία (νωρίτερα: public/data/symbols.json)
+public/data/symbols.json   λίστα μετοχών/κρύπτο με κατηγορία
         │
         ▼
 scripts/fetch-stats.mjs    Node script: Yahoo Finance (μετοχές) + CoinGecko (κρύπτο)
@@ -60,9 +60,10 @@ npm run preview   # προεπισκόπηση του production build
    ενεργοποιούνται σε push στο `main`).
 2. Στις ρυθμίσεις του repo: **Settings → Pages → Source: GitHub Actions**.
 3. Το `deploy.yml` θα χτίσει και θα δημοσιεύσει αυτόματα. Το `vite.config.ts`
-   έχει `base: "/claude-test/"` ώστε τα assets να φορτώνουν σωστά κάτω από
-   `https://<user>.github.io/claude-test/`. Αν το repo μετονομαστεί, αλλάξτε
-   αναλόγως το `base`.
+   έχει `base: "/Claude-test/"` ώστε τα assets να φορτώνουν σωστά κάτω από
+   `https://<user>.github.io/Claude-test/` (προσοχή στα κεφαλαία — το GitHub
+   Pages είναι case-sensitive στο path). Αν το repo μετονομαστεί, αλλάξτε
+   αναλόγως το `base` (και το `start_url`/`scope` στο PWA manifest).
 4. Το `nightly-fetch.yml` χρειάζεται να τρέξει τουλάχιστον μία φορά (ή να
    περιμένετε το πρώτο βράδυ) ώστε να υπάρχουν δεδομένα στο `main` — μπορείτε
    να το τρέξετε χειροκίνητα από το tab **Actions → Nightly stats fetch → Run
