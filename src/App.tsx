@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import AssetDetail from "./pages/AssetDetail";
 import Derivatives from "./pages/Derivatives";
 import Kino from "./pages/Kino";
+import KinoDay from "./pages/KinoDay";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/asset/:id" element={<AssetDetail />} />
         <Route path="/derivatives" element={<Derivatives />} />
         <Route path="/kino" element={<Kino />} />
+        <Route path="/kino/:date" element={<KinoDay />} />
       </Routes>
     </>
   );

@@ -54,21 +54,23 @@ React app (Vite)           Dashboard + σελίδα ανά asset με γράφη
 ακολουθεί είναι περιγραφικά στατιστικά για διασκέδαση, όχι πρόβλεψη.
 
 ```
-scripts/fetch-kino.mjs      OPAP public API (game 1100) → 1 "κλείσιμο"/ημέρα
-        │                   (η τελευταία ολοκληρωμένη κλήρωση της ημέρας,
-        │                    ώρα Ελλάδας — το KINO κληρώνεται κάθε 5', οπότε
-        │                    δεν αποθηκεύεται κάθε μεμονωμένη κλήρωση)
+scripts/fetch-kino.mjs      OPAP public API (game 1100) → ΟΛΕΣ οι κληρώσεις
+        │                   κάθε ημέρας (~288/ημέρα, μία κάθε 5') για τις
+        │                   τελευταίες ~2 μήνες (rolling window)
         ▼
-public/data/kino/history.json   ιστορικό ημερήσιων κλεισιμάτων (rolling ~2 μήνες)
+public/data/kino/draws/<ημερομηνία>.json   όλες οι κληρώσεις της ημέρας
+public/data/kino/history.json              1 σύνοψη/ημέρα (πλήθος + κλείσιμο)
         │
         ▼
 scripts/analyze-kino.mjs    συχνότητα ανά αριθμό, "ζεστοί/κρύοι/καθυστερημένοι"
-        │                   αριθμοί, συχνά ζευγάρια
+        │                   αριθμοί, συχνά ζευγάρια — υπολογισμένα πάνω σε
+        │                   ΟΛΕΣ τις κληρώσεις του παραθύρου (~17.000+)
         ▼
 public/data/kino/stats.json
         │
         ▼
-React σελίδα /kino          πίνακας συχνοτήτων, ιστορικό κληρώσεων
+React σελίδες /kino (σύνοψη ανά ημέρα) και /kino/:date (όλες οι κληρώσεις
+        της συγκεκριμένης ημέρας)
 ```
 
 - **Πηγή δεδομένων**: το δημόσιο REST API του ΟΠΑΠ
@@ -129,13 +131,13 @@ npm run preview   # προεπισκόπηση του production build
 
 ```
 public/data/             δεδομένα (symbols, latest snapshot, ιστορικό ανά asset)
-public/data/kino/        ιστορικό &amp; στατιστικά KINO (history.json, stats.json)
+public/data/kino/        ιστορικό &amp; στατιστικά KINO (draws/*.json, history.json, stats.json)
 scripts/fetch-stats.mjs  νυχτερινό script άντλησης δεδομένων μετοχών/κρύπτο
 scripts/fetch-kino.mjs   νυχτερινό script άντλησης ημερήσιου κλεισίματος KINO
 scripts/analyze-kino.mjs υπολογισμός στατιστικών KINO (συχνότητα, hot/cold)
 src/lib/                 types, API client, μορφοποίηση τιμών
 src/hooks/               useAssets, useHistory, useKino (φόρτωση δεδομένων)
 src/components/          SearchBar, CategoryFilter, AssetCard, Sparkline
-src/pages/                Dashboard (λίστα + αναζήτηση + φίλτρα), AssetDetail (γράφημα + ιστορικό), Kino
+src/pages/                Dashboard (λίστα + αναζήτηση + φίλτρα), AssetDetail (γράφημα + ιστορικό), Kino, KinoDay
 .github/workflows/       nightly-fetch.yml, deploy.yml
 ```
