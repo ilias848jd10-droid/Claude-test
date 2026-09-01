@@ -28,6 +28,12 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      # GitHub Pages has no server-side routing: a direct link to a
+      # client-side route like /kino would 404 without this. Serving the
+      # SPA shell as the 404 page lets react-router pick up the URL and
+      # render the right page.
+      - run: cp dist/index.html dist/404.html
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
