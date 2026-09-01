@@ -37,12 +37,22 @@ export interface HistoryPoint {
 
 // --- KINO ---------------------------------------------------------------
 
+// A single KINO draw (KINO draws every 5 minutes).
 export interface KinoDraw {
-  date: string;
   drawId: number;
   time: string;
   numbers: number[];
   bonus: number | null;
+}
+
+// One row per day: a summary so the overview page doesn't have to load
+// every day's full draw list just to list the days.
+export interface KinoDaySummary {
+  date: string;
+  drawCount: number;
+  firstDrawId: number | null;
+  lastDrawId: number | null;
+  closingDraw: KinoDraw | null;
 }
 
 export interface KinoNumberCount {
@@ -54,6 +64,7 @@ export interface KinoOverdue {
   number: number;
   gapDraws: number;
   lastSeenDate: string | null;
+  lastSeenTime: string | null;
 }
 
 export interface KinoPair {
@@ -61,11 +72,16 @@ export interface KinoPair {
   count: number;
 }
 
+export interface KinoLastDraw extends KinoDraw {
+  date: string;
+}
+
 export interface KinoStats {
   generatedAt: string;
   windowDays: number;
   windowStart: string | null;
   windowEnd: string | null;
+  totalDraws: number;
   totalNumbersDrawn: number;
   expectedCountPerNumber: number;
   frequency: KinoNumberCount[];
@@ -73,7 +89,7 @@ export interface KinoStats {
   cold: KinoNumberCount[];
   overdue: KinoOverdue[];
   topPairs: KinoPair[];
-  lastDraw: KinoDraw | null;
+  lastDraw: KinoLastDraw | null;
   disclaimer: string;
   morningSummary: string;
 }

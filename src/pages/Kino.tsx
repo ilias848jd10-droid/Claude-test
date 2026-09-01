@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useKino } from "../hooks/useKino";
 import type { KinoNumberCount } from "../lib/types";
 
@@ -31,7 +32,7 @@ export default function Kino() {
         {stats && (
           <p className="last-updated">
             Ενημερώθηκε: {new Date(stats.generatedAt).toLocaleString("el-GR")} · Παράθυρο:{" "}
-            {stats.windowStart} → {stats.windowEnd} ({stats.windowDays} ημέρες)
+            {stats.windowStart} → {stats.windowEnd} ({stats.windowDays} ημέρες, {stats.totalDraws.toLocaleString("el-GR")} κληρώσεις — όλες οι κληρώσεις κάθε ημέρας, όχι μόνο το κλείσιμο)
           </p>
         )}
       </header>
@@ -82,7 +83,7 @@ export default function Kino() {
               {stats.overdue.map((o) => (
                 <li key={o.number}>
                   <NumberChip n={o.number} />
-                  <span className="kino-count-value">{o.gapDraws} ημ.</span>
+                  <span className="kino-count-value">{o.gapDraws} κληρ.</span>
                 </li>
               ))}
             </ul>
@@ -110,8 +111,11 @@ export default function Kino() {
           </p>
           <div className="kino-frequency-grid">
             {stats.frequency.map((f) => {
+              // With ~17k draws in the window, counts sit very close to the
+              // random expectation (that's the point) — so the highlight
+              // threshold is tight (±2%) to still show some texture.
               const ratio = stats.expectedCountPerNumber ? f.count / stats.expectedCountPerNumber : 1;
-              const tone = ratio >= 1.15 ? "hot" : ratio <= 0.85 ? "cold" : undefined;
+              const tone = ratio >= 1.02 ? "hot" : ratio <= 0.98 ? "cold" : undefined;
               return (
                 <div key={f.number} className="kino-freq-cell" title={`${f.number}: ${f.count} φορές`}>
                   <NumberChip n={f.number} tone={tone} />
@@ -125,24 +129,29 @@ export default function Kino() {
 
       {history.length > 0 && (
         <>
-          <h2>Ιστορικό ημερήσιων κληρώσεων</h2>
+          <h2>Ημέρες στο ιστορικό</h2>
+          <p className="last-updated">Κάθε ημέρα έχει ~288 κληρώσεις (μία κάθε 5 λεπτά) — πάτησε μια ημερομηνία για να τις δεις όλες.</p>
           <div className="history-table-wrap">
             <table className="history-table">
               <thead>
                 <tr>
                   <th>Ημερομηνία</th>
-                  <th>Κλήρωση</th>
-                  <th>Ώρα</th>
-                  <th>Αριθμοί</th>
+                  <th>Κληρώσεις</th>
+                  <th>Κλείσιμο</th>
+                  <th>Αριθμοί κλεισίματος</th>
                 </tr>
               </thead>
               <tbody>
                 {[...history].reverse().map((d) => (
                   <tr key={d.date}>
-                    <td>{d.date}</td>
-                    <td>#{d.drawId}</td>
-                    <td>{d.time}</td>
-                    <td className="kino-history-numbers">{d.numbers.join(", ")}</td>
+                    <td>
+                      <Link to={`/kino/${d.date}`}>{d.date}</Link>
+                    </td>
+                    <td>{d.drawCount}</td>
+                    <td>
+                      {d.closingDraw ? `#${d.closingDraw.drawId} · ${d.closingDraw.time}` : "—"}
+                    </td>
+                    <td className="kino-history-numbers">{d.closingDraw?.numbers.join(", ") ?? "—"}</td>
                   </tr>
                 ))}
               </tbody>

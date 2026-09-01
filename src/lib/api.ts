@@ -1,4 +1,4 @@
-import type { HistoryPoint, KinoDraw, KinoStats, LatestFile, SymbolsFile } from "./types";
+import type { HistoryPoint, KinoDaySummary, KinoDraw, KinoStats, LatestFile, SymbolsFile } from "./types";
 
 const base = import.meta.env.BASE_URL;
 
@@ -20,10 +20,14 @@ export function fetchHistory(id: string): Promise<HistoryPoint[]> {
   return getJson<HistoryPoint[]>(`history/${id}.json`);
 }
 
-export function fetchKinoHistory(): Promise<KinoDraw[]> {
-  return getJson<KinoDraw[]>("kino/history.json");
+export function fetchKinoHistory(): Promise<KinoDaySummary[]> {
+  return getJson<KinoDaySummary[]>("kino/history.json");
 }
 
 export function fetchKinoStats(): Promise<KinoStats> {
   return getJson<KinoStats>("kino/stats.json");
+}
+
+export function fetchKinoDay(date: string): Promise<KinoDraw[]> {
+  return getJson<KinoDraw[]>(`kino/draws/${date}.json`);
 }
