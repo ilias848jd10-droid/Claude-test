@@ -46,6 +46,38 @@ React app (Vite)           Dashboard + σελίδα ανά asset με γράφη
   αρχεία `public/data/history/<id>.json` μεγαλώνουν με τον καιρό (dedupe ανά
   ημερομηνία, οπότε ξανά-τρέξιμο την ίδια μέρα δεν δημιουργεί διπλότυπα).
 
+## KINO — ιστορικό &amp; στατιστικά (σελίδα `/kino`)
+
+⚠️ **Σημαντικό**: το KINO είναι τυχαία κλήρωση με πιστοποιημένη γεννήτρια
+τυχαίων αριθμών· κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες. Δεν
+υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία — ό,τι
+ακολουθεί είναι περιγραφικά στατιστικά για διασκέδαση, όχι πρόβλεψη.
+
+```
+scripts/fetch-kino.mjs      OPAP public API (game 1100) → 1 "κλείσιμο"/ημέρα
+        │                   (η τελευταία ολοκληρωμένη κλήρωση της ημέρας,
+        │                    ώρα Ελλάδας — το KINO κληρώνεται κάθε 5', οπότε
+        │                    δεν αποθηκεύεται κάθε μεμονωμένη κλήρωση)
+        ▼
+public/data/kino/history.json   ιστορικό ημερήσιων κλεισιμάτων (rolling ~2 μήνες)
+        │
+        ▼
+scripts/analyze-kino.mjs    συχνότητα ανά αριθμό, "ζεστοί/κρύοι/καθυστερημένοι"
+        │                   αριθμοί, συχνά ζευγάρια
+        ▼
+public/data/kino/stats.json
+        │
+        ▼
+React σελίδα /kino          πίνακας συχνοτήτων, ιστορικό κληρώσεων
+```
+
+- **Πηγή δεδομένων**: το δημόσιο REST API του ΟΠΑΠ
+  (`https://api.opap.gr/draws/v3.0/1100/...`), χωρίς API key.
+- Ενημερώνεται μαζί με τα υπόλοιπα δεδομένα από το ίδιο nightly workflow
+  (`.github/workflows/nightly-fetch.yml`).
+- Πρώτο τρέξιμο / backfill: `node scripts/fetch-kino.mjs` (γεμίζει ιστορικό
+  60 ημερών) και μετά `node scripts/analyze-kino.mjs`.
+
 ## Εκκίνηση δεδομένων (πρώτη φορά)
 
 ```bash
@@ -96,11 +128,14 @@ npm run preview   # προεπισκόπηση του production build
 ## Δομή project
 
 ```
-public/data/            δεδομένα (symbols, latest snapshot, ιστορικό ανά asset)
-scripts/fetch-stats.mjs νυχτερινό script άντλησης δεδομένων
-src/lib/                types, API client, μορφοποίηση τιμών
-src/hooks/               useAssets, useHistory (φόρτωση δεδομένων)
+public/data/             δεδομένα (symbols, latest snapshot, ιστορικό ανά asset)
+public/data/kino/        ιστορικό &amp; στατιστικά KINO (history.json, stats.json)
+scripts/fetch-stats.mjs  νυχτερινό script άντλησης δεδομένων μετοχών/κρύπτο
+scripts/fetch-kino.mjs   νυχτερινό script άντλησης ημερήσιου κλεισίματος KINO
+scripts/analyze-kino.mjs υπολογισμός στατιστικών KINO (συχνότητα, hot/cold)
+src/lib/                 types, API client, μορφοποίηση τιμών
+src/hooks/               useAssets, useHistory, useKino (φόρτωση δεδομένων)
 src/components/          SearchBar, CategoryFilter, AssetCard, Sparkline
-src/pages/                Dashboard (λίστα + αναζήτηση + φίλτρα), AssetDetail (γράφημα + ιστορικό)
+src/pages/                Dashboard (λίστα + αναζήτηση + φίλτρα), AssetDetail (γράφημα + ιστορικό), Kino
 .github/workflows/       nightly-fetch.yml, deploy.yml
 ```
