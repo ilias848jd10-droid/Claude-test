@@ -28,6 +28,12 @@ jobs:
       - name: Fetch latest stock & crypto stats
         run: node scripts/fetch-stats.mjs
 
+      - name: Fetch latest KINO daily close
+        run: node scripts/fetch-kino.mjs
+
+      - name: Recompute KINO stats
+        run: node scripts/analyze-kino.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

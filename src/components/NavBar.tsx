@@ -9,6 +9,9 @@ export default function NavBar() {
       <NavLink to="/derivatives" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
         ETH/USDT Παράγωγα
       </NavLink>
+      <NavLink to="/kino" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        KINO
+      </NavLink>
     </nav>
   );
 }

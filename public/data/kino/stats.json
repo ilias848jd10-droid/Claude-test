@@ -1,0 +1,568 @@
+{
+  "generatedAt": "2026-09-01T21:35:29.098Z",
+  "windowDays": 60,
+  "windowStart": "2026-07-04",
+  "windowEnd": "2026-09-01",
+  "totalNumbersDrawn": 1200,
+  "expectedCountPerNumber": 15,
+  "frequency": [
+    {
+      "number": 1,
+      "count": 14
+    },
+    {
+      "number": 2,
+      "count": 13
+    },
+    {
+      "number": 3,
+      "count": 5
+    },
+    {
+      "number": 4,
+      "count": 11
+    },
+    {
+      "number": 5,
+      "count": 16
+    },
+    {
+      "number": 6,
+      "count": 15
+    },
+    {
+      "number": 7,
+      "count": 18
+    },
+    {
+      "number": 8,
+      "count": 16
+    },
+    {
+      "number": 9,
+      "count": 14
+    },
+    {
+      "number": 10,
+      "count": 9
+    },
+    {
+      "number": 11,
+      "count": 12
+    },
+    {
+      "number": 12,
+      "count": 13
+    },
+    {
+      "number": 13,
+      "count": 23
+    },
+    {
+      "number": 14,
+      "count": 13
+    },
+    {
+      "number": 15,
+      "count": 13
+    },
+    {
+      "number": 16,
+      "count": 21
+    },
+    {
+      "number": 17,
+      "count": 16
+    },
+    {
+      "number": 18,
+      "count": 16
+    },
+    {
+      "number": 19,
+      "count": 19
+    },
+    {
+      "number": 20,
+      "count": 18
+    },
+    {
+      "number": 21,
+      "count": 16
+    },
+    {
+      "number": 22,
+      "count": 16
+    },
+    {
+      "number": 23,
+      "count": 10
+    },
+    {
+      "number": 24,
+      "count": 15
+    },
+    {
+      "number": 25,
+      "count": 13
+    },
+    {
+      "number": 26,
+      "count": 22
+    },
+    {
+      "number": 27,
+      "count": 12
+    },
+    {
+      "number": 28,
+      "count": 17
+    },
+    {
+      "number": 29,
+      "count": 9
+    },
+    {
+      "number": 30,
+      "count": 19
+    },
+    {
+      "number": 31,
+      "count": 11
+    },
+    {
+      "number": 32,
+      "count": 13
+    },
+    {
+      "number": 33,
+      "count": 9
+    },
+    {
+      "number": 34,
+      "count": 20
+    },
+    {
+      "number": 35,
+      "count": 19
+    },
+    {
+      "number": 36,
+      "count": 17
+    },
+    {
+      "number": 37,
+      "count": 11
+    },
+    {
+      "number": 38,
+      "count": 16
+    },
+    {
+      "number": 39,
+      "count": 15
+    },
+    {
+      "number": 40,
+      "count": 17
+    },
+    {
+      "number": 41,
+      "count": 14
+    },
+    {
+      "number": 42,
+      "count": 14
+    },
+    {
+      "number": 43,
+      "count": 16
+    },
+    {
+      "number": 44,
+      "count": 11
+    },
+    {
+      "number": 45,
+      "count": 16
+    },
+    {
+      "number": 46,
+      "count": 18
+    },
+    {
+      "number": 47,
+      "count": 14
+    },
+    {
+      "number": 48,
+      "count": 12
+    },
+    {
+      "number": 49,
+      "count": 16
+    },
+    {
+      "number": 50,
+      "count": 13
+    },
+    {
+      "number": 51,
+      "count": 18
+    },
+    {
+      "number": 52,
+      "count": 11
+    },
+    {
+      "number": 53,
+      "count": 11
+    },
+    {
+      "number": 54,
+      "count": 13
+    },
+    {
+      "number": 55,
+      "count": 20
+    },
+    {
+      "number": 56,
+      "count": 18
+    },
+    {
+      "number": 57,
+      "count": 13
+    },
+    {
+      "number": 58,
+      "count": 14
+    },
+    {
+      "number": 59,
+      "count": 10
+    },
+    {
+      "number": 60,
+      "count": 18
+    },
+    {
+      "number": 61,
+      "count": 20
+    },
+    {
+      "number": 62,
+      "count": 16
+    },
+    {
+      "number": 63,
+      "count": 16
+    },
+    {
+      "number": 64,
+      "count": 14
+    },
+    {
+      "number": 65,
+      "count": 14
+    },
+    {
+      "number": 66,
+      "count": 16
+    },
+    {
+      "number": 67,
+      "count": 18
+    },
+    {
+      "number": 68,
+      "count": 14
+    },
+    {
+      "number": 69,
+      "count": 7
+    },
+    {
+      "number": 70,
+      "count": 16
+    },
+    {
+      "number": 71,
+      "count": 20
+    },
+    {
+      "number": 72,
+      "count": 12
+    },
+    {
+      "number": 73,
+      "count": 13
+    },
+    {
+      "number": 74,
+      "count": 13
+    },
+    {
+      "number": 75,
+      "count": 13
+    },
+    {
+      "number": 76,
+      "count": 18
+    },
+    {
+      "number": 77,
+      "count": 20
+    },
+    {
+      "number": 78,
+      "count": 22
+    },
+    {
+      "number": 79,
+      "count": 13
+    },
+    {
+      "number": 80,
+      "count": 23
+    }
+  ],
+  "hot": [
+    {
+      "number": 13,
+      "count": 23
+    },
+    {
+      "number": 80,
+      "count": 23
+    },
+    {
+      "number": 26,
+      "count": 22
+    },
+    {
+      "number": 78,
+      "count": 22
+    },
+    {
+      "number": 16,
+      "count": 21
+    },
+    {
+      "number": 34,
+      "count": 20
+    },
+    {
+      "number": 55,
+      "count": 20
+    },
+    {
+      "number": 61,
+      "count": 20
+    },
+    {
+      "number": 71,
+      "count": 20
+    },
+    {
+      "number": 77,
+      "count": 20
+    }
+  ],
+  "cold": [
+    {
+      "number": 3,
+      "count": 5
+    },
+    {
+      "number": 69,
+      "count": 7
+    },
+    {
+      "number": 10,
+      "count": 9
+    },
+    {
+      "number": 29,
+      "count": 9
+    },
+    {
+      "number": 33,
+      "count": 9
+    },
+    {
+      "number": 23,
+      "count": 10
+    },
+    {
+      "number": 59,
+      "count": 10
+    },
+    {
+      "number": 4,
+      "count": 11
+    },
+    {
+      "number": 31,
+      "count": 11
+    },
+    {
+      "number": 37,
+      "count": 11
+    }
+  ],
+  "overdue": [
+    {
+      "number": 3,
+      "gapDraws": 19,
+      "lastSeenDate": "2026-08-13"
+    },
+    {
+      "number": 32,
+      "gapDraws": 15,
+      "lastSeenDate": "2026-08-17"
+    },
+    {
+      "number": 12,
+      "gapDraws": 14,
+      "lastSeenDate": "2026-08-18"
+    },
+    {
+      "number": 69,
+      "gapDraws": 14,
+      "lastSeenDate": "2026-08-18"
+    },
+    {
+      "number": 72,
+      "gapDraws": 14,
+      "lastSeenDate": "2026-08-18"
+    },
+    {
+      "number": 31,
+      "gapDraws": 13,
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "number": 68,
+      "gapDraws": 13,
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "number": 23,
+      "gapDraws": 11,
+      "lastSeenDate": "2026-08-21"
+    },
+    {
+      "number": 37,
+      "gapDraws": 8,
+      "lastSeenDate": "2026-08-24"
+    },
+    {
+      "number": 51,
+      "gapDraws": 8,
+      "lastSeenDate": "2026-08-24"
+    }
+  ],
+  "topPairs": [
+    {
+      "numbers": [
+        13,
+        77
+      ],
+      "count": 11
+    },
+    {
+      "numbers": [
+        13,
+        80
+      ],
+      "count": 11
+    },
+    {
+      "numbers": [
+        55,
+        80
+      ],
+      "count": 11
+    },
+    {
+      "numbers": [
+        78,
+        80
+      ],
+      "count": 11
+    },
+    {
+      "numbers": [
+        7,
+        78
+      ],
+      "count": 10
+    },
+    {
+      "numbers": [
+        19,
+        56
+      ],
+      "count": 10
+    },
+    {
+      "numbers": [
+        28,
+        34
+      ],
+      "count": 10
+    },
+    {
+      "numbers": [
+        55,
+        77
+      ],
+      "count": 10
+    },
+    {
+      "numbers": [
+        1,
+        20
+      ],
+      "count": 9
+    },
+    {
+      "numbers": [
+        5,
+        34
+      ],
+      "count": 9
+    }
+  ],
+  "lastDraw": {
+    "date": "2026-09-01",
+    "drawId": 1330365,
+    "time": "23:55",
+    "numbers": [
+      2,
+      6,
+      10,
+      13,
+      14,
+      17,
+      22,
+      26,
+      43,
+      49,
+      52,
+      58,
+      59,
+      62,
+      67,
+      70,
+      73,
+      75,
+      77,
+      79
+    ],
+    "bonus": 26
+  },
+  "disclaimer": "Το KINO είναι τυχαία κλήρωση (πιστοποιημένη γεννήτρια τυχαίων αριθμών). Κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες — δεν υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία. Οι παρακάτω αριθμοί είναι απλώς περιγραφικά στατιστικά, όχι πρόβλεψη.",
+  "morningSummary": "KINO — πρωινή αναφορά (1/9/2026)\n\nΤελευταίο κλείσιμο (2026-09-01, κλήρωση #1330365, 23:55):\n2, 6, 10, 13, 14, 17, 22, 26, 43, 49, 52, 58, 59, 62, 67, 70, 73, 75, 77, 79\n\nΠιο \"ζεστοί\" αριθμοί (60 τελευταίες ημέρες): 13 (23x), 80 (23x), 26 (22x), 78 (22x), 16 (21x)\nΠιο \"κρύοι\" αριθμοί: 3 (5x), 69 (7x), 10 (9x), 29 (9x), 33 (9x)\nΠιο \"καθυστερημένοι\" (δεν έχουν βγει εδώ και πολύ καιρό): 3 (19 ημέρες), 32 (15 ημέρες), 12 (14 ημέρες), 69 (14 ημέρες), 72 (14 ημέρες)\n\nΤο KINO είναι τυχαία κλήρωση (πιστοποιημένη γεννήτρια τυχαίων αριθμών). Κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες — δεν υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία. Οι παρακάτω αριθμοί είναι απλώς περιγραφικά στατιστικά, όχι πρόβλεψη."
+}
