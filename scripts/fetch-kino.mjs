@@ -82,8 +82,14 @@ function endOfAthensDayUTC(dateStr) {
   return Date.parse(`${dateStr}T23:59:30Z`) - offsetMin * 60 * 1000;
 }
 
-function isoDaysAgo(n) {
-  const d = new Date();
+// n calendar days before `dateStr` (a "YYYY-MM-DD" string), as a
+// "YYYY-MM-DD" string. Callers must pass an Athens-local date string (e.g.
+// from athensDateStr) — computing "days ago" from the *server's* UTC clock
+// is wrong here: this job runs at 23:30 UTC, which is already after
+// midnight in Athens (UTC+3), so "today" in UTC lags a full calendar day
+// behind "today" in Athens at the moment it runs.
+function daysBeforeDate(dateStr, n) {
+  const d = new Date(`${dateStr}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() - n);
   return d.toISOString().slice(0, 10);
 }
@@ -245,7 +251,7 @@ async function main() {
   const dayCloses = new Map(); // date -> draw
   let anchor = latest;
   for (let i = 1; i <= BACKFILL_DAYS + 1; i++) {
-    const dateStr = isoDaysAgo(i);
+    const dateStr = daysBeforeDate(today, i);
     const found = await locateDayClose(dateStr, anchor);
     if (found) {
       dayCloses.set(dateStr, found);
@@ -255,7 +261,7 @@ async function main() {
     }
   }
 
-  const wantedDates = Array.from({ length: BACKFILL_DAYS }, (_, i) => isoDaysAgo(i + 1)).sort();
+  const wantedDates = Array.from({ length: BACKFILL_DAYS }, (_, i) => daysBeforeDate(today, i + 1)).sort();
 
   const summaries = [];
   for (const dateStr of wantedDates) {
@@ -285,7 +291,7 @@ async function main() {
   }
 
   // Prune day files + summaries outside the retention window.
-  const cutoff = isoDaysAgo(RETENTION_DAYS);
+  const cutoff = daysBeforeDate(today, RETENTION_DAYS);
   const keepDates = new Set(summaries.map((s) => s.date));
   for (const dateStr of existingDayFiles) {
     if (dateStr < cutoff || (!keepDates.has(dateStr) && dateStr !== today)) {
