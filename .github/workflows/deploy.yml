@@ -27,9 +27,16 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      # Explicitly check out main's current tip, not
+      # github.event.workflow_run.head_sha: that field is fixed to whatever
+      # commit was HEAD when the "Nightly stats fetch" run *started* — it
+      # does NOT advance to the commit that run creates and pushes during
+      # its own execution. Using it here silently deployed yesterday's data
+      # every night. This job only starts after that workflow (and its
+      # push) has fully completed, so main's tip is always the right commit.
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
