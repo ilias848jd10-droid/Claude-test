@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:22:33.419Z",
+  "generatedAt": "2026-09-21T01:20:20.380Z",
   "assets": [
     {
       "id": "AAPL",
@@ -137,8 +137,8 @@
       "name": "Bitcoin",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 81084,
-      "changePct24h": -0.15048,
+      "price": 81766,
+      "changePct24h": 0.82889,
       "currency": "USD"
     },
     {
@@ -147,8 +147,8 @@
       "name": "Ethereum",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 2620.68,
-      "changePct24h": 0.4127,
+      "price": 2687.07,
+      "changePct24h": 2.53719,
       "currency": "USD"
     },
     {
@@ -157,8 +157,8 @@
       "name": "Solana",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 110.34,
-      "changePct24h": -2.57154,
+      "price": 112.66,
+      "changePct24h": 2.11505,
       "currency": "USD"
     },
     {
@@ -167,8 +167,8 @@
       "name": "Cardano",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 0.227034,
-      "changePct24h": 0.63758,
+      "price": 0.231372,
+      "changePct24h": 1.89059,
       "currency": "USD"
     },
     {
@@ -177,8 +177,8 @@
       "name": "Avalanche",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 9.93,
-      "changePct24h": 19.60846,
+      "price": 11.59,
+      "changePct24h": 16.78366,
       "currency": "USD"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Uniswap",
       "type": "crypto",
       "category": "DeFi",
-      "price": 8.77,
-      "changePct24h": -0.61549,
+      "price": 8.84,
+      "changePct24h": 0.85742,
       "currency": "USD"
     },
     {
@@ -197,8 +197,8 @@
       "name": "Aave",
       "type": "crypto",
       "category": "DeFi",
-      "price": 140.42,
-      "changePct24h": 0.03438,
+      "price": 139.5,
+      "changePct24h": -0.78993,
       "currency": "USD"
     },
     {
@@ -207,8 +207,8 @@
       "name": "Chainlink",
       "type": "crypto",
       "category": "DeFi",
-      "price": 12.31,
-      "changePct24h": 0.21721,
+      "price": 12.7,
+      "changePct24h": 3.17875,
       "currency": "USD"
     },
     {
@@ -217,8 +217,8 @@
       "name": "XRP",
       "type": "crypto",
       "category": "Πληρωμές",
-      "price": 1.4,
-      "changePct24h": 0.05364,
+      "price": 1.43,
+      "changePct24h": 1.94827,
       "currency": "USD"
     },
     {
@@ -227,8 +227,8 @@
       "name": "Litecoin",
       "type": "crypto",
       "category": "Πληρωμές",
-      "price": 57.85,
-      "changePct24h": 0.12375,
+      "price": 59.36,
+      "changePct24h": 2.6015,
       "currency": "USD"
     },
     {
@@ -237,8 +237,8 @@
       "name": "Dogecoin",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.087125,
-      "changePct24h": -0.45725,
+      "price": 0.0889,
+      "changePct24h": 2.02618,
       "currency": "USD"
     },
     {
@@ -247,8 +247,8 @@
       "name": "Shiba Inu",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.00000548,
-      "changePct24h": 1.154,
+      "price": 0.00000556,
+      "changePct24h": 1.50411,
       "currency": "USD"
     },
     {
@@ -257,8 +257,8 @@
       "name": "Tether",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999608,
-      "changePct24h": -0.01017,
+      "price": 0.999711,
+      "changePct24h": 0.00953,
       "currency": "USD"
     },
     {
@@ -267,8 +267,8 @@
       "name": "USD Coin",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999688,
-      "changePct24h": -0.00831,
+      "price": 0.999747,
+      "changePct24h": 0.00414,
       "currency": "USD"
     }
   ],
