@@ -1,183 +1,183 @@
 {
-  "generatedAt": "2026-09-28T01:51:50.016Z",
+  "generatedAt": "2026-09-29T02:40:44.456Z",
   "windowDays": 60,
-  "windowStart": "2026-07-30",
-  "windowEnd": "2026-09-27",
+  "windowStart": "2026-07-31",
+  "windowEnd": "2026-09-28",
   "totalDraws": 17280,
   "totalNumbersDrawn": 345600,
   "expectedCountPerNumber": 4320,
   "frequency": [
     {
       "number": 1,
-      "count": 4322
+      "count": 4335
     },
     {
       "number": 2,
-      "count": 4218
-    },
-    {
-      "number": 3,
-      "count": 4278
-    },
-    {
-      "number": 4,
-      "count": 4240
-    },
-    {
-      "number": 5,
-      "count": 4217
-    },
-    {
-      "number": 6,
-      "count": 4340
-    },
-    {
-      "number": 7,
-      "count": 4370
-    },
-    {
-      "number": 8,
-      "count": 4391
-    },
-    {
-      "number": 9,
-      "count": 4469
-    },
-    {
-      "number": 10,
-      "count": 4299
-    },
-    {
-      "number": 11,
-      "count": 4240
-    },
-    {
-      "number": 12,
-      "count": 4261
-    },
-    {
-      "number": 13,
-      "count": 4354
-    },
-    {
-      "number": 14,
-      "count": 4298
-    },
-    {
-      "number": 15,
-      "count": 4398
-    },
-    {
-      "number": 16,
       "count": 4219
     },
     {
-      "number": 17,
-      "count": 4222
-    },
-    {
-      "number": 18,
-      "count": 4285
-    },
-    {
-      "number": 19,
-      "count": 4206
-    },
-    {
-      "number": 20,
-      "count": 4311
-    },
-    {
-      "number": 21,
-      "count": 4189
-    },
-    {
-      "number": 22,
-      "count": 4323
-    },
-    {
-      "number": 23,
-      "count": 4400
-    },
-    {
-      "number": 24,
-      "count": 4361
-    },
-    {
-      "number": 25,
-      "count": 4280
-    },
-    {
-      "number": 26,
-      "count": 4393
-    },
-    {
-      "number": 27,
-      "count": 4256
-    },
-    {
-      "number": 28,
-      "count": 4357
-    },
-    {
-      "number": 29,
-      "count": 4277
-    },
-    {
-      "number": 30,
+      "number": 3,
       "count": 4293
     },
     {
-      "number": 31,
-      "count": 4332
+      "number": 4,
+      "count": 4214
     },
     {
-      "number": 32,
-      "count": 4331
+      "number": 5,
+      "count": 4227
     },
     {
-      "number": 33,
+      "number": 6,
+      "count": 4337
+    },
+    {
+      "number": 7,
+      "count": 4366
+    },
+    {
+      "number": 8,
+      "count": 4384
+    },
+    {
+      "number": 9,
+      "count": 4458
+    },
+    {
+      "number": 10,
+      "count": 4285
+    },
+    {
+      "number": 11,
+      "count": 4244
+    },
+    {
+      "number": 12,
+      "count": 4248
+    },
+    {
+      "number": 13,
       "count": 4346
     },
     {
-      "number": 34,
-      "count": 4258
+      "number": 14,
+      "count": 4304
     },
     {
-      "number": 35,
+      "number": 15,
+      "count": 4394
+    },
+    {
+      "number": 16,
+      "count": 4222
+    },
+    {
+      "number": 17,
+      "count": 4229
+    },
+    {
+      "number": 18,
       "count": 4277
     },
     {
-      "number": 36,
+      "number": 19,
+      "count": 4207
+    },
+    {
+      "number": 20,
+      "count": 4321
+    },
+    {
+      "number": 21,
+      "count": 4180
+    },
+    {
+      "number": 22,
+      "count": 4325
+    },
+    {
+      "number": 23,
+      "count": 4397
+    },
+    {
+      "number": 24,
+      "count": 4349
+    },
+    {
+      "number": 25,
+      "count": 4261
+    },
+    {
+      "number": 26,
+      "count": 4394
+    },
+    {
+      "number": 27,
+      "count": 4273
+    },
+    {
+      "number": 28,
+      "count": 4346
+    },
+    {
+      "number": 29,
       "count": 4289
     },
     {
-      "number": 37,
+      "number": 30,
+      "count": 4296
+    },
+    {
+      "number": 31,
+      "count": 4343
+    },
+    {
+      "number": 32,
+      "count": 4318
+    },
+    {
+      "number": 33,
       "count": 4330
     },
     {
+      "number": 34,
+      "count": 4254
+    },
+    {
+      "number": 35,
+      "count": 4280
+    },
+    {
+      "number": 36,
+      "count": 4306
+    },
+    {
+      "number": 37,
+      "count": 4322
+    },
+    {
       "number": 38,
-      "count": 4291
+      "count": 4303
     },
     {
       "number": 39,
-      "count": 4319
+      "count": 4324
     },
     {
       "number": 40,
-      "count": 4292
+      "count": 4304
     },
     {
       "number": 41,
-      "count": 4316
+      "count": 4315
     },
     {
       "number": 42,
-      "count": 4301
+      "count": 4295
     },
     {
       "number": 43,
-      "count": 4295
+      "count": 4290
     },
     {
       "number": 44,
@@ -185,316 +185,309 @@
     },
     {
       "number": 45,
-      "count": 4393
+      "count": 4396
     },
     {
       "number": 46,
-      "count": 4350
+      "count": 4347
     },
     {
       "number": 47,
-      "count": 4335
+      "count": 4331
     },
     {
       "number": 48,
-      "count": 4303
+      "count": 4319
     },
     {
       "number": 49,
-      "count": 4335
-    },
-    {
-      "number": 50,
-      "count": 4324
-    },
-    {
-      "number": 51,
-      "count": 4237
-    },
-    {
-      "number": 52,
-      "count": 4401
-    },
-    {
-      "number": 53,
-      "count": 4221
-    },
-    {
-      "number": 54,
-      "count": 4419
-    },
-    {
-      "number": 55,
       "count": 4328
     },
     {
+      "number": 50,
+      "count": 4325
+    },
+    {
+      "number": 51,
+      "count": 4228
+    },
+    {
+      "number": 52,
+      "count": 4396
+    },
+    {
+      "number": 53,
+      "count": 4232
+    },
+    {
+      "number": 54,
+      "count": 4427
+    },
+    {
+      "number": 55,
+      "count": 4323
+    },
+    {
       "number": 56,
-      "count": 4421
+      "count": 4406
     },
     {
       "number": 57,
-      "count": 4400
+      "count": 4406
     },
     {
       "number": 58,
-      "count": 4296
+      "count": 4277
     },
     {
       "number": 59,
-      "count": 4428
+      "count": 4446
     },
     {
       "number": 60,
-      "count": 4301
+      "count": 4307
     },
     {
       "number": 61,
-      "count": 4235
+      "count": 4239
     },
     {
       "number": 62,
-      "count": 4409
+      "count": 4408
     },
     {
       "number": 63,
-      "count": 4314
+      "count": 4308
     },
     {
       "number": 64,
-      "count": 4348
+      "count": 4364
     },
     {
       "number": 65,
-      "count": 4322
+      "count": 4313
     },
     {
       "number": 66,
-      "count": 4354
+      "count": 4359
     },
     {
       "number": 67,
-      "count": 4405
+      "count": 4413
     },
     {
       "number": 68,
-      "count": 4349
+      "count": 4347
     },
     {
       "number": 69,
-      "count": 4326
+      "count": 4327
     },
     {
       "number": 70,
-      "count": 4214
+      "count": 4219
     },
     {
       "number": 71,
-      "count": 4425
+      "count": 4434
     },
     {
       "number": 72,
-      "count": 4405
+      "count": 4410
     },
     {
       "number": 73,
-      "count": 4353
+      "count": 4364
     },
     {
       "number": 74,
-      "count": 4256
+      "count": 4258
     },
     {
       "number": 75,
-      "count": 4352
+      "count": 4338
     },
     {
       "number": 76,
-      "count": 4253
+      "count": 4258
     },
     {
       "number": 77,
-      "count": 4337
+      "count": 4327
     },
     {
       "number": 78,
-      "count": 4369
+      "count": 4374
     },
     {
       "number": 79,
-      "count": 4345
+      "count": 4352
     },
     {
       "number": 80,
-      "count": 4367
+      "count": 4364
     }
   ],
   "hot": [
     {
       "number": 9,
-      "count": 4469
+      "count": 4458
     },
     {
       "number": 59,
-      "count": 4428
+      "count": 4446
     },
     {
       "number": 71,
-      "count": 4425
-    },
-    {
-      "number": 56,
-      "count": 4421
+      "count": 4434
     },
     {
       "number": 54,
-      "count": 4419
-    },
-    {
-      "number": 62,
-      "count": 4409
+      "count": 4427
     },
     {
       "number": 67,
-      "count": 4405
+      "count": 4413
     },
     {
       "number": 72,
-      "count": 4405
+      "count": 4410
     },
     {
-      "number": 52,
-      "count": 4401
+      "number": 62,
+      "count": 4408
+    },
+    {
+      "number": 56,
+      "count": 4406
+    },
+    {
+      "number": 57,
+      "count": 4406
     },
     {
       "number": 23,
-      "count": 4400
+      "count": 4397
     }
   ],
   "cold": [
     {
       "number": 21,
-      "count": 4189
+      "count": 4180
     },
     {
       "number": 19,
-      "count": 4206
+      "count": 4207
     },
     {
-      "number": 70,
+      "number": 4,
       "count": 4214
     },
     {
-      "number": 5,
-      "count": 4217
-    },
-    {
       "number": 2,
-      "count": 4218
-    },
-    {
-      "number": 16,
       "count": 4219
     },
     {
-      "number": 53,
-      "count": 4221
+      "number": 70,
+      "count": 4219
     },
     {
-      "number": 17,
+      "number": 16,
       "count": 4222
     },
     {
-      "number": 61,
-      "count": 4235
+      "number": 5,
+      "count": 4227
     },
     {
       "number": 51,
-      "count": 4237
+      "count": 4228
+    },
+    {
+      "number": 17,
+      "count": 4229
+    },
+    {
+      "number": 53,
+      "count": 4232
     }
   ],
   "overdue": [
     {
-      "number": 26,
-      "gapDraws": 24,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "21:55"
+      "number": 80,
+      "gapDraws": 16,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "22:35"
     },
     {
-      "number": 59,
-      "gapDraws": 13,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "22:50"
-    },
-    {
-      "number": 79,
-      "gapDraws": 11,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:00"
-    },
-    {
-      "number": 32,
-      "gapDraws": 10,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:05"
-    },
-    {
-      "number": 58,
-      "gapDraws": 9,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:10"
-    },
-    {
-      "number": 63,
-      "gapDraws": 9,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:10"
-    },
-    {
-      "number": 62,
-      "gapDraws": 8,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:15"
+      "number": 75,
+      "gapDraws": 15,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "22:40"
     },
     {
       "number": 70,
-      "gapDraws": 8,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:15"
+      "gapDraws": 13,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "22:50"
     },
     {
-      "number": 36,
-      "gapDraws": 7,
-      "lastSeenDate": "2026-09-27",
-      "lastSeenTime": "23:20"
+      "number": 61,
+      "gapDraws": 12,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "22:55"
     },
     {
-      "number": 17,
+      "number": 72,
+      "gapDraws": 12,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "22:55"
+    },
+    {
+      "number": 26,
+      "gapDraws": 11,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "23:00"
+    },
+    {
+      "number": 58,
+      "gapDraws": 10,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "23:05"
+    },
+    {
+      "number": 60,
+      "gapDraws": 10,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "23:05"
+    },
+    {
+      "number": 25,
+      "gapDraws": 9,
+      "lastSeenDate": "2026-09-28",
+      "lastSeenTime": "23:10"
+    },
+    {
+      "number": 4,
       "gapDraws": 6,
-      "lastSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-28",
       "lastSeenTime": "23:25"
     }
   ],
   "topPairs": [
     {
       "numbers": [
-        46,
-        60
-      ],
-      "count": 1135
-    },
-    {
-      "numbers": [
-        62,
-        75
-      ],
-      "count": 1131
-    },
-    {
-      "numbers": [
         31,
         62
       ],
-      "count": 1130
+      "count": 1138
+    },
+    {
+      "numbers": [
+        9,
+        59
+      ],
+      "count": 1137
     },
     {
       "numbers": [
@@ -505,8 +498,8 @@
     },
     {
       "numbers": [
-        9,
-        59
+        24,
+        67
       ],
       "count": 1129
     },
@@ -519,8 +512,15 @@
     },
     {
       "numbers": [
-        9,
-        23
+        46,
+        60
+      ],
+      "count": 1128
+    },
+    {
+      "numbers": [
+        54,
+        56
       ],
       "count": 1127
     },
@@ -529,51 +529,51 @@
         9,
         79
       ],
-      "count": 1125
+      "count": 1126
     },
     {
       "numbers": [
-        59,
-        72
+        23,
+        54
       ],
-      "count": 1124
+      "count": 1126
     },
     {
       "numbers": [
-        57,
-        67
+        62,
+        75
       ],
-      "count": 1123
+      "count": 1126
     }
   ],
   "lastDraw": {
-    "drawId": 1337853,
+    "drawId": 1338141,
     "time": "23:55",
     "numbers": [
-      6,
+      5,
+      8,
       9,
-      10,
+      11,
+      15,
       16,
-      25,
+      18,
+      19,
+      27,
       29,
-      33,
-      34,
-      37,
+      35,
+      39,
+      40,
       45,
-      46,
-      51,
-      53,
+      49,
       54,
-      55,
+      65,
       69,
-      72,
-      73,
-      74,
-      76
+      76,
+      78
     ],
-    "bonus": 74,
-    "date": "2026-09-27"
+    "bonus": 45,
+    "date": "2026-09-28"
   },
   "disclaimer": "Το KINO είναι τυχαία κλήρωση (πιστοποιημένη γεννήτρια τυχαίων αριθμών). Κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες — δεν υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία. Οι παρακάτω αριθμοί είναι απλώς περιγραφικά στατιστικά, όχι πρόβλεψη.",
-  "morningSummary": "KINO — πρωινή αναφορά (28/9/2026)\n\nΤελευταία κλήρωση (2026-09-27, κλήρωση #1337853, 23:55):\n6, 9, 10, 16, 25, 29, 33, 34, 37, 45, 46, 51, 53, 54, 55, 69, 72, 73, 74, 76\n\nΒάση ανάλυσης: 17280 κληρώσεις σε 60 ημέρες (2026-07-30 → 2026-09-27).\nΠιο \"ζεστοί\" αριθμοί: 9 (4469x), 59 (4428x), 71 (4425x), 56 (4421x), 54 (4419x)\nΠιο \"κρύοι\" αριθμοί: 21 (4189x), 19 (4206x), 70 (4214x), 5 (4217x), 2 (4218x)\nΠιο \"καθυστερημένοι\" (δεν έχουν βγει εδώ και πολλές κληρώσεις): 26 (24 κληρώσεις), 59 (13 κληρώσεις), 79 (11 κληρώσεις), 32 (10 κληρώσεις), 58 (9 κληρώσεις)\n\nΤο KINO είναι τυχαία κλήρωση (πιστοποιημένη γεννήτρια τυχαίων αριθμών). Κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες — δεν υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία. Οι παρακάτω αριθμοί είναι απλώς περιγραφικά στατιστικά, όχι πρόβλεψη."
+  "morningSummary": "KINO — πρωινή αναφορά (29/9/2026)\n\nΤελευταία κλήρωση (2026-09-28, κλήρωση #1338141, 23:55):\n5, 8, 9, 11, 15, 16, 18, 19, 27, 29, 35, 39, 40, 45, 49, 54, 65, 69, 76, 78\n\nΒάση ανάλυσης: 17280 κληρώσεις σε 60 ημέρες (2026-07-31 → 2026-09-28).\nΠιο \"ζεστοί\" αριθμοί: 9 (4458x), 59 (4446x), 71 (4434x), 54 (4427x), 67 (4413x)\nΠιο \"κρύοι\" αριθμοί: 21 (4180x), 19 (4207x), 4 (4214x), 2 (4219x), 70 (4219x)\nΠιο \"καθυστερημένοι\" (δεν έχουν βγει εδώ και πολλές κληρώσεις): 80 (16 κληρώσεις), 75 (15 κληρώσεις), 70 (13 κληρώσεις), 61 (12 κληρώσεις), 72 (12 κληρώσεις)\n\nΤο KINO είναι τυχαία κλήρωση (πιστοποιημένη γεννήτρια τυχαίων αριθμών). Κάθε κλήρωση είναι ανεξάρτητη από τις προηγούμενες — δεν υπάρχει πραγματικό μαθηματικό προβάδισμα από ιστορικά στοιχεία. Οι παρακάτω αριθμοί είναι απλώς περιγραφικά στατιστικά, όχι πρόβλεψη."
 }
