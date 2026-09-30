@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T02:40:10.049Z",
+  "generatedAt": "2026-09-30T02:15:51.365Z",
   "assets": [
     {
       "id": "AAPL",
@@ -7,8 +7,8 @@
       "name": "Apple Inc.",
       "type": "stock",
       "category": "Τεχνολογία",
-      "price": 338.4,
-      "changePct24h": 36.012861736334386,
+      "price": 329.4,
+      "changePct24h": 32.395498392282946,
       "currency": "USD"
     },
     {
@@ -17,8 +17,8 @@
       "name": "Microsoft Corp.",
       "type": "stock",
       "category": "Τεχνολογία",
-      "price": 509.22,
-      "changePct24h": 42.730610757630984,
+      "price": 508.96,
+      "changePct24h": 42.657734675000704,
       "currency": "USD"
     },
     {
@@ -27,8 +27,8 @@
       "name": "Alphabet Inc.",
       "type": "stock",
       "category": "Τεχνολογία",
-      "price": 342.75,
-      "changePct24h": 24.93621054166364,
+      "price": 340.92,
+      "changePct24h": 24.269155063060452,
       "currency": "USD"
     },
     {
@@ -37,8 +37,8 @@
       "name": "NVIDIA Corp.",
       "type": "stock",
       "category": "Τεχνολογία",
-      "price": 228.86,
-      "changePct24h": 36.61652340019102,
+      "price": 227.21,
+      "changePct24h": 35.63156638013371,
       "currency": "USD"
     },
     {
@@ -47,8 +47,8 @@
       "name": "Meta Platforms",
       "type": "stock",
       "category": "Τεχνολογία",
-      "price": 715.62,
-      "changePct24h": 36.12188997945674,
+      "price": 738.79,
+      "changePct24h": 40.5291790306627,
       "currency": "USD"
     },
     {
@@ -57,8 +57,8 @@
       "name": "Amazon.com",
       "type": "stock",
       "category": "Λιανική / e-commerce",
-      "price": 246.15,
-      "changePct24h": 23.482492224340323,
+      "price": 246.67,
+      "changePct24h": 23.74335306511487,
       "currency": "USD"
     },
     {
@@ -67,8 +67,8 @@
       "name": "Walmart Inc.",
       "type": "stock",
       "category": "Λιανική / e-commerce",
-      "price": 108.73,
-      "changePct24h": -11.522499796566033,
+      "price": 106.8,
+      "changePct24h": -13.093010008951097,
       "currency": "USD"
     },
     {
@@ -77,8 +77,8 @@
       "name": "Tesla Inc.",
       "type": "stock",
       "category": "Αυτοκίνητο",
-      "price": 357.45,
-      "changePct24h": -1.2105132244424164,
+      "price": 352.84,
+      "changePct24h": -2.4845922118121795,
       "currency": "USD"
     },
     {
@@ -87,8 +87,8 @@
       "name": "JPMorgan Chase",
       "type": "stock",
       "category": "Χρηματοοικονομικά",
-      "price": 336.59,
-      "changePct24h": 19.003676990524678,
+      "price": 334.98,
+      "changePct24h": 18.434450572762,
       "currency": "USD"
     },
     {
@@ -97,8 +97,8 @@
       "name": "Visa Inc.",
       "type": "stock",
       "category": "Χρηματοοικονομικά",
-      "price": 367.74,
-      "changePct24h": 24.4382782891175,
+      "price": 365.88,
+      "changePct24h": 23.808879263670825,
       "currency": "USD"
     },
     {
@@ -107,8 +107,8 @@
       "name": "Exxon Mobil",
       "type": "stock",
       "category": "Ενέργεια",
-      "price": 162.52,
-      "changePct24h": -4.953506052985554,
+      "price": 161.35,
+      "changePct24h": -5.637756593952871,
       "currency": "USD"
     },
     {
@@ -117,8 +117,8 @@
       "name": "Netflix Inc.",
       "type": "stock",
       "category": "Ψυχαγωγία",
-      "price": 69.23,
-      "changePct24h": -25.90174462164187,
+      "price": 70.3,
+      "changePct24h": -24.75650219415606,
       "currency": "USD"
     },
     {
@@ -127,8 +127,8 @@
       "name": "Walt Disney Co.",
       "type": "stock",
       "category": "Ψυχαγωγία",
-      "price": 105.59,
-      "changePct24h": 14.25016230253192,
+      "price": 105.41,
+      "changePct24h": 14.055399264228516,
       "currency": "USD"
     },
     {
@@ -137,8 +137,8 @@
       "name": "Bitcoin",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 82903,
-      "changePct24h": -0.7839,
+      "price": 83469,
+      "changePct24h": 0.61059,
       "currency": "USD"
     },
     {
@@ -147,8 +147,8 @@
       "name": "Ethereum",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 2653.07,
-      "changePct24h": -0.01013,
+      "price": 2672.37,
+      "changePct24h": 0.50202,
       "currency": "USD"
     },
     {
@@ -157,8 +157,8 @@
       "name": "Solana",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 116.51,
-      "changePct24h": -3.3016,
+      "price": 119.72,
+      "changePct24h": 2.454,
       "currency": "USD"
     },
     {
@@ -167,8 +167,8 @@
       "name": "Cardano",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 0.239408,
-      "changePct24h": -5.88767,
+      "price": 0.245606,
+      "changePct24h": 1.81918,
       "currency": "USD"
     },
     {
@@ -177,8 +177,8 @@
       "name": "Avalanche",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 10.38,
-      "changePct24h": -4.55884,
+      "price": 11.41,
+      "changePct24h": 8.50254,
       "currency": "USD"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Uniswap",
       "type": "crypto",
       "category": "DeFi",
-      "price": 8.46,
-      "changePct24h": -10.60543,
+      "price": 8.85,
+      "changePct24h": 3.51008,
       "currency": "USD"
     },
     {
@@ -197,8 +197,8 @@
       "name": "Aave",
       "type": "crypto",
       "category": "DeFi",
-      "price": 146.2,
-      "changePct24h": -3.32193,
+      "price": 160.84,
+      "changePct24h": 9.34877,
       "currency": "USD"
     },
     {
@@ -207,8 +207,8 @@
       "name": "Chainlink",
       "type": "crypto",
       "category": "DeFi",
-      "price": 15.01,
-      "changePct24h": 7.07019,
+      "price": 14.44,
+      "changePct24h": -4.66432,
       "currency": "USD"
     },
     {
@@ -217,8 +217,8 @@
       "name": "XRP",
       "type": "crypto",
       "category": "Πληρωμές",
-      "price": 1.47,
-      "changePct24h": -2.08811,
+      "price": 1.5,
+      "changePct24h": 1.88262,
       "currency": "USD"
     },
     {
@@ -227,8 +227,8 @@
       "name": "Litecoin",
       "type": "crypto",
       "category": "Πληρωμές",
-      "price": 67.19,
-      "changePct24h": -4.72183,
+      "price": 67.09,
+      "changePct24h": -0.81053,
       "currency": "USD"
     },
     {
@@ -237,8 +237,8 @@
       "name": "Dogecoin",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.091887,
-      "changePct24h": -3.52529,
+      "price": 0.094089,
+      "changePct24h": 1.92084,
       "currency": "USD"
     },
     {
@@ -247,8 +247,8 @@
       "name": "Shiba Inu",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.00000551,
-      "changePct24h": -5.56782,
+      "price": 0.0000058,
+      "changePct24h": 4.80355,
       "currency": "USD"
     },
     {
@@ -257,8 +257,8 @@
       "name": "Tether",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999741,
-      "changePct24h": -0.0106,
+      "price": 0.999648,
+      "changePct24h": -0.00701,
       "currency": "USD"
     },
     {
@@ -267,19 +267,19 @@
       "name": "USD Coin",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999925,
-      "changePct24h": 0.00212,
+      "price": 0.999853,
+      "changePct24h": -0.00586,
       "currency": "USD"
     }
   ],
   "errors": [
     {
-      "id": "avalanche-2",
-      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/avalanche-2/market_chart?vs_currency=usd&days=90&interval=daily"
+      "id": "uniswap",
+      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/uniswap/market_chart?vs_currency=usd&days=90&interval=daily"
     },
     {
-      "id": "dogecoin",
-      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=90&interval=daily"
+      "id": "litecoin",
+      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/litecoin/market_chart?vs_currency=usd&days=90&interval=daily"
     }
   ]
 }
