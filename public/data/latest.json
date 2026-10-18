@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T01:25:20.428Z",
+  "generatedAt": "2026-10-18T01:19:17.067Z",
   "assets": [
     {
       "id": "AAPL",
@@ -137,8 +137,8 @@
       "name": "Bitcoin",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 81459,
-      "changePct24h": -0.95473,
+      "price": 81473,
+      "changePct24h": 0.00504,
       "currency": "USD"
     },
     {
@@ -147,8 +147,8 @@
       "name": "Ethereum",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 2418.37,
-      "changePct24h": -0.75842,
+      "price": 2404.02,
+      "changePct24h": -0.65605,
       "currency": "USD"
     },
     {
@@ -157,8 +157,8 @@
       "name": "Solana",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 104.35,
-      "changePct24h": -0.94624,
+      "price": 103.48,
+      "changePct24h": -0.83717,
       "currency": "USD"
     },
     {
@@ -167,8 +167,8 @@
       "name": "Cardano",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 0.223962,
-      "changePct24h": -2.82341,
+      "price": 0.220236,
+      "changePct24h": -1.72032,
       "currency": "USD"
     },
     {
@@ -177,8 +177,8 @@
       "name": "Avalanche",
       "type": "crypto",
       "category": "Layer 1",
-      "price": 9.91,
-      "changePct24h": -1.07893,
+      "price": 9.79,
+      "changePct24h": -1.20589,
       "currency": "USD"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Uniswap",
       "type": "crypto",
       "category": "DeFi",
-      "price": 7.28,
-      "changePct24h": -2.37733,
+      "price": 7.21,
+      "changePct24h": -1.02249,
       "currency": "USD"
     },
     {
@@ -197,8 +197,8 @@
       "name": "Aave",
       "type": "crypto",
       "category": "DeFi",
-      "price": 154.4,
-      "changePct24h": -2.3313,
+      "price": 150.97,
+      "changePct24h": -2.23727,
       "currency": "USD"
     },
     {
@@ -207,8 +207,8 @@
       "name": "Chainlink",
       "type": "crypto",
       "category": "DeFi",
-      "price": 12.29,
-      "changePct24h": -1.35828,
+      "price": 11.97,
+      "changePct24h": -2.65398,
       "currency": "USD"
     },
     {
@@ -218,7 +218,7 @@
       "type": "crypto",
       "category": "Πληρωμές",
       "price": 1.3,
-      "changePct24h": -2.2448,
+      "changePct24h": -0.60558,
       "currency": "USD"
     },
     {
@@ -227,8 +227,8 @@
       "name": "Litecoin",
       "type": "crypto",
       "category": "Πληρωμές",
-      "price": 59.37,
-      "changePct24h": -2.65447,
+      "price": 58.9,
+      "changePct24h": -0.81279,
       "currency": "USD"
     },
     {
@@ -237,8 +237,8 @@
       "name": "Dogecoin",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.080043,
-      "changePct24h": -1.50596,
+      "price": 0.079318,
+      "changePct24h": -0.91714,
       "currency": "USD"
     },
     {
@@ -247,8 +247,8 @@
       "name": "Shiba Inu",
       "type": "crypto",
       "category": "Meme",
-      "price": 0.00000505,
-      "changePct24h": -1.44813,
+      "price": 0.00000498,
+      "changePct24h": -1.56093,
       "currency": "USD"
     },
     {
@@ -257,8 +257,8 @@
       "name": "Tether",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999064,
-      "changePct24h": 0.00326,
+      "price": 0.999122,
+      "changePct24h": 0.00985,
       "currency": "USD"
     },
     {
@@ -267,8 +267,8 @@
       "name": "USD Coin",
       "type": "crypto",
       "category": "Stablecoin",
-      "price": 0.999838,
-      "changePct24h": 0.02631,
+      "price": 0.999773,
+      "changePct24h": -0.00245,
       "currency": "USD"
     }
   ],
@@ -278,8 +278,8 @@
       "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/avalanche-2/market_chart?vs_currency=usd&days=90&interval=daily"
     },
     {
-      "id": "usd-coin",
-      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/usd-coin/market_chart?vs_currency=usd&days=90&interval=daily"
+      "id": "dogecoin",
+      "error": "HTTP 429 for https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=90&interval=daily"
     }
   ]
 }
