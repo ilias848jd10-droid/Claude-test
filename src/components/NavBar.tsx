@@ -12,6 +12,9 @@ export default function NavBar() {
       <NavLink to="/kino" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
         KINO
       </NavLink>
+      <NavLink to="/tektonika" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        Τεκτονικά
+      </NavLink>
     </nav>
   );
 }
