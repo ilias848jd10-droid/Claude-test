@@ -3,14 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-  # nightly-fetch.yml commits with the default GITHUB_TOKEN, and GitHub
-  # deliberately does not let GITHUB_TOKEN-authored pushes trigger other
-  # workflows' `push` events (anti-recursion safeguard) — so without this,
-  # a nightly data commit never redeploys the site. workflow_run isn't
-  # subject to that restriction, so it picks up the slack.
-  workflow_run:
-    workflows: ["Nightly stats fetch"]
-    types: [completed]
+  # workflow_run auto-redeploy disabled at the user's request (system
+  # retired), along with nightly-fetch.yml's own schedule trigger.
+  # workflow_run:
+  #   workflows: ["Nightly stats fetch"]
+  #   types: [completed]
   workflow_dispatch: {}
 
 permissions:
